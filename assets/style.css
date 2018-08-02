@@ -401,7 +401,7 @@ footer {
 @media screen and (max-width: 640px) {
 	
 body {
-	width: 410px;
+	width: 640px;
 	padding: 0;
 	margin: 0;
 	font-family: 'Crimson Text', serif;
@@ -414,25 +414,23 @@ nav {
 
 	background-color: #F5F5F5;
 	height: 75px;
-	width: 410px;
-	margin-bottom: 25px;
+	width: 640px;
 	position: relative;
 }
 
 .navbody {
 	width: 390px;
 	height: 75px;
-	margin: auto;
+	margin: 0;
 	position: relative;
 }
 
 /*Portfolio Nav*/
 
 .portnavbody {
-	width: 374px;
+	width: 390px;
 	height: 75px;
-	margin: auto;
-	position: relative;
+	position: absolute;
 }
 
 h1 {
@@ -443,22 +441,25 @@ header {
 	background-color: #9bb26c;
 	color: #2a2b2f;
 	text-align: center;
-	width: 390px;
+	width: 640px;
 	height: 55px;	
 	padding: 10px;
 }
 
 #navmenu {
 	position: absolute;
-	right: 0;
-	bottom: -25px;
-	background-color: #F5F5F5; 
+	left: 0;
+	bottom: -55px;
+	background-color: #F5F5F5;
+	height: 55px;
+	width: 660px; 
+	text-align: center;
 }
 
 #navmenu a {
 	text-decoration: none;
 	color: inherit;
-	padding: 10px;
+	padding: 20px;
 	
 }
 
@@ -476,9 +477,8 @@ header {
 }
 
 section {
-	width: 320px;
-	/*margin: auto;*/
-	/*margin-left: 20px;*/
+	width: 580px;
+	margin-top: 90px;
 	margin-bottom: 30px;
 	clear: both;
 	border: 3px solid #48582d;
@@ -491,7 +491,6 @@ section {
 
 .contbod {
 	width: 320px;
-	margin: auto;
 	margin-bottom: 30px;
 	clear: both;
 	border: 2px solid #48582d;
@@ -503,10 +502,9 @@ section {
 /*Portfolio Page Body */
 
 .portbod {
-	width: 680px;
-	margin: auto;
+	width: 530px;
 	margin-bottom: 30px;
-	clear: both;
+	margin-top: 60px;
 	border: 2px solid #48582d;
 	padding: 35px 28px 35px 28px;
 	background-color: #F5F5F5;
@@ -592,7 +590,7 @@ footer {
 	border-top: 5px solid #9bb26c; 
 	text-align: center;
 	padding: 45px 15px 25px 15px;
-	width: 380px;
+	width: 630px;
 }
 	
 }
