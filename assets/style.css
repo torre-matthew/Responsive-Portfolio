@@ -1,3 +1,5 @@
+
+
 body {
 	padding: 0;
 	margin: 0;
@@ -192,7 +194,6 @@ footer {
 	width: 100%;
 }
 
-
 /*Start Responsive 768px*/
 
 @media screen and (max-width: 768px) {
@@ -274,8 +275,6 @@ header {
 
 section {
 	width: 680px;
-	/*margin: auto;*/
-	/*margin-left: 20px;*/
 	margin-bottom: 30px;
 	clear: both;
 	border: 3px solid #48582d;
